@@ -22,7 +22,7 @@ class _AppBar extends StatelessWidget implements PreferredSizeWidget {
               ),
               children: [
                 TextSpan(
-                  text: 'pfi',
+                  text: 'pfy',
                   style: context.textTheme.headlineLarge!.copyWith(
                     color: ColorRes.GREEN400,
                   ),

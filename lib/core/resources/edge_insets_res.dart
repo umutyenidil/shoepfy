@@ -27,6 +27,7 @@ class EdgeInsetsRes {
   static const EdgeInsetsGeometry B12 = EdgeInsets.only(bottom: 12.0);
   static const EdgeInsetsGeometry B16 = EdgeInsets.only(bottom: 16.0);
   static const EdgeInsetsGeometry B48 = EdgeInsets.only(bottom: 48.0);
+  static const EdgeInsetsGeometry B60 = EdgeInsets.only(bottom: 48.0);
 
   static const EdgeInsetsGeometry R8 = EdgeInsets.only(right: 8.0);
   static const EdgeInsetsGeometry R12 = EdgeInsets.only(right: 12.0);
