@@ -8,6 +8,7 @@ import 'package:shoepfy/core/resources/border_radius_res.dart';
 import 'package:shoepfy/core/resources/color_res.dart';
 import 'package:shoepfy/core/resources/edge_insets_res.dart';
 import 'package:shoepfy/features/home/data/data_sources/static/brands.dart';
+import 'package:shoepfy/features/shoe/presentation/pages/product_detail/page.dart';
 
 part 'product_card.dart';
 

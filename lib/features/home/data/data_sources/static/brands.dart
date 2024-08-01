@@ -77,24 +77,4 @@ List<StaticProductEntity> products = [
     name: 'OZELLE CLOUDFOAM',
     price: '8999\$',
   ),
-  const StaticProductEntity(
-    assetImage: ImageRes.ADIDAS_BY_STELLA_MCCARTNEY_SPORTSWEAR_AYAKKABI_MOR_IG5968_01_STANDARD_REMOVEBG_PREVIEW,
-    name: 'ADIDAS BY STELLA MCCARTNEY',
-    price: '4999\$',
-  ),
-  const StaticProductEntity(
-    assetImage: ImageRes.ADIZERO_SELECT_2_0_SIYAH_IG6619_01_STANDARD_REMOVEBG_PREVIEW,
-    name: 'ADIZERO SELECT 2.0',
-    price: '1999\$',
-  ),
-  const StaticProductEntity(
-    assetImage: ImageRes.GAMECOURT_2_0_TENIS_AYAKKABISI_BEYAZ_IG9568_01_STANDARD_REMOVEBG_PREVIEW,
-    name: 'GAMECOURT 2.0',
-    price: '3999\$',
-  ),
-  const StaticProductEntity(
-    assetImage: ImageRes.OZELLE_CLOUDFOAM_AYAKKABI_KAHVERENGI_IG5984_01_STANDARD_REMOVEBG_PREVIEW,
-    name: 'OZELLE CLOUDFOAM',
-    price: '8999\$',
-  ),
 ];

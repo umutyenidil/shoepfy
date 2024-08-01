@@ -1,8 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:shoepfy/core/common/widgets/buttons/huge_icon_button.dart';
@@ -11,7 +8,6 @@ import 'package:shoepfy/core/extensions/widget_ext.dart';
 import 'package:shoepfy/core/resources/border_radius_res.dart';
 import 'package:shoepfy/core/resources/color_res.dart';
 import 'package:shoepfy/core/resources/edge_insets_res.dart';
-import 'package:shoepfy/core/resources/image_res.dart';
 import 'package:shoepfy/features/home/data/data_sources/static/brands.dart';
 import 'package:shoepfy/features/home/presentation/pages/product_list/page.dart';
 

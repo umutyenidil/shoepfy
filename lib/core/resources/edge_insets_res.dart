@@ -14,6 +14,8 @@ class EdgeInsetsRes {
   static const EdgeInsetsGeometry V16 = EdgeInsets.symmetric(vertical: 16.0);
   static const EdgeInsetsGeometry V8 = EdgeInsets.symmetric(vertical: 8.0);
 
+  static const EdgeInsetsGeometry H8 = EdgeInsets.symmetric(horizontal: 8.0);
+  static const EdgeInsetsGeometry H12 = EdgeInsets.symmetric(horizontal: 12.0);
   static const EdgeInsetsGeometry H16 = EdgeInsets.symmetric(horizontal: 16.0);
   static const EdgeInsetsGeometry H24 = EdgeInsets.symmetric(horizontal: 24.0);
 

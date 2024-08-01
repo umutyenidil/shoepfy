@@ -29,14 +29,17 @@ class _BottomNavigationBarState extends State<_BottomNavigationBar> {
               shape: StadiumBorder(),
               color: ColorRes.BLACK950,
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                _buildIconButton(0, HugeIcons.strokeRoundedHome01),
-                _buildIconButton(1, HugeIcons.strokeRoundedSearch01),
-                _buildIconButton(2, HugeIcons.strokeRoundedFavourite),
-                _buildIconButton(3, HugeIcons.strokeRoundedUser),
-              ],
+            child: Padding(
+              padding: EdgeInsetsRes.H8,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  _buildIconButton(0, HugeIcons.strokeRoundedHome01),
+                  _buildIconButton(1, HugeIcons.strokeRoundedSearch01),
+                  _buildIconButton(2, HugeIcons.strokeRoundedFavourite),
+                  _buildIconButton(3, HugeIcons.strokeRoundedUser),
+                ],
+              ),
             ),
           ),
         ),
