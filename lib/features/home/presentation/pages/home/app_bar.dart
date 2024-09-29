@@ -33,7 +33,9 @@ class _AppBar extends StatelessWidget implements PreferredSizeWidget {
           HugeIconButton(
             icon: HugeIcons.strokeRoundedShoppingBasket01,
             backgroundColor: ColorRes.SLATE200,
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).push(Cart.route());
+            },
           ),
         ],
       ),

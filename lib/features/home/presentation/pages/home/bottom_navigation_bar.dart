@@ -1,7 +1,11 @@
 part of 'page.dart';
 
 class _BottomNavigationBar extends StatefulWidget {
-  const _BottomNavigationBar();
+  final ValueCallback<int> onChanged;
+
+  const _BottomNavigationBar({
+    required this.onChanged,
+  });
 
   @override
   State<_BottomNavigationBar> createState() => _BottomNavigationBarState();
@@ -11,9 +15,12 @@ class _BottomNavigationBarState extends State<_BottomNavigationBar> {
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
+    if(index != _selectedIndex){
+      setState(() {
+        _selectedIndex = index;
+      });
+      widget.onChanged(index);
+    }
   }
 
   @override
